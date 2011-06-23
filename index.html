@@ -2,26 +2,26 @@
 <head>
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.js"></script>
 	<script type="text/javascript" src="js/jcarousellite.js"></script>
-  <script type="text/javascript">
-    var $j = jQuery.noConflict();
-    $j(document).ready(function(event) {
-      $j(".carousel").each(function(){
-				 console.log('init');
-         $j(this).jCarouselLite({
-           btnNext: ".next",
-           btnPrev: ".prev",
-           visible: 2,
-           scroll: 2
-         });
-      });
-    });
-  </script>
+	<script type="text/javascript">
+		var $j = jQuery.noConflict();
+		$j(document).ready(function(event) {
+		  $j(".carousel").each(function(){
+		 console.log('init');
+		     $j(this).jCarouselLite({
+		       btnNext: ".next",
+		       btnPrev: ".prev",
+		       visible: 2,
+		       scroll: 2
+		     });
+		  });
+		});
+	</script>
 
- 	<style type="text/css">
-		li {overflow: hidden;width: 200px;height: 125px;}
-  </style>
-		
+	<style type="text/css">
+	li {overflow: hidden;width: 200px;height: 125px;}
+	</style>
 </head>
+
   <body>
 
     <div class="carousel">
