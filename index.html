@@ -1,68 +1,70 @@
 <html>
 <head>
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.js"></script>
-	<script type="text/javascript" src="js/jcarousellite.js"></script>
-	<script type="text/javascript">
-		var $j = jQuery.noConflict();
-		$j(document).ready(function(event) {
-			$j(".carousel").each(function(){
-				$j(this).jCarouselLite({
-					btnNext: ".next",
-					btnPrev: ".prev",
-					visible: 2,
-					scroll: 2
-				});
-			});
-		});
-	</script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.js"></script>
+  <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+  <script type="text/javascript" src="js/jcarousellite.js"></script>
+  <script type="text/javascript">
+    var $j = jQuery.noConflict();
+    $j(document).ready(function(event) {
+    	$j(".carousel").each(function(){
+    		$j(this).jCarouselLite({
+    			btnNext: ".next",
+    			btnPrev: ".prev",
+    			visible: 2,
+    			scroll: 2,
+    			mouseWheel: true
+    		});
+    	});
+    });
+  </script>
 
-	<style type="text/css">
-	  li {overflow: hidden;width: 200px;height: 125px;}
-	</style>
+  <style type="text/css">
+    li {overflow: hidden;width: 200px;height: 125px;}
+  </style>
 </head>
 
   <body>
 
     <div class="carousel">
-         <ul>
-            <li><img src="images/picture1.jpg" ></li>
-            <li><img src="images/picture2.jpg" ></li>
-            <li><img src="images/picture3.jpg" ></li>
-            <li><img src="images/picture4.jpg" ></li>
-            <li><img src="images/picture5.jpg" ></li>
-            <li><img src="images/picture6.jpg" ></li>
-            <li><img src="images/picture7.jpg" ></li>
-         </ul>
-     <button class="prev">&lt;&lt;</button>
-     <button class="next">&gt;&gt;</button>
+      <ul>
+        <li><img src="images/picture1.jpg" ></li>
+        <li><img src="images/picture2.jpg" ></li>
+        <li><img src="images/picture3.jpg" ></li>
+        <li><img src="images/picture4.jpg" ></li>
+        <li><img src="images/picture5.jpg" ></li>
+        <li><img src="images/picture6.jpg" ></li>
+        <li><img src="images/picture7.jpg" ></li>
+      </ul>
+      <button class="prev">&lt;&lt;</button>
+      <button class="next">&gt;&gt;</button>
     </div>
 
     <div class="carousel">
-         <ul>
-            <li><img src="images/picture1.jpg" ></li>
-            <li><img src="images/picture2.jpg" ></li>
-            <li><img src="images/picture3.jpg" ></li>
-            <li><img src="images/picture4.jpg" ></li>
-            <li><img src="images/picture5.jpg" ></li>
-            <li><img src="images/picture6.jpg" ></li>
-            <li><img src="images/picture7.jpg" ></li>
-         </ul>
-     <button class="prev">&lt;&lt;</button>
-     <button class="next">&gt;&gt;</button>
+      <ul>
+        <li><img src="images/picture1.jpg" ></li>
+        <li><img src="images/picture2.jpg" ></li>
+        <li><img src="images/picture3.jpg" ></li>
+        <li><img src="images/picture4.jpg" ></li>
+        <li><img src="images/picture5.jpg" ></li>
+        <li><img src="images/picture6.jpg" ></li>
+        <li><img src="images/picture7.jpg" ></li>
+      </ul>
+      <button class="prev">&lt;&lt;</button>
+      <button class="next">&gt;&gt;</button>
     </div>
 
     <div class="carousel">
-         <ul>
-            <li><img src="images/picture1.jpg" ></li>
-            <li><img src="images/picture2.jpg" ></li>
-            <li><img src="images/picture3.jpg" ></li>
-            <li><img src="images/picture4.jpg" ></li>
-            <li><img src="images/picture5.jpg" ></li>
-            <li><img src="images/picture6.jpg" ></li>
-            <li><img src="images/picture7.jpg" ></li>
-         </ul>
-     <button class="prev">&lt;&lt;</button>
-     <button class="next">&gt;&gt;</button>
+      <ul>
+        <li><img src="images/picture1.jpg" ></li>
+        <li><img src="images/picture2.jpg" ></li>
+        <li><img src="images/picture3.jpg" ></li>
+        <li><img src="images/picture4.jpg" ></li>
+        <li><img src="images/picture5.jpg" ></li>
+        <li><img src="images/picture6.jpg" ></li>
+        <li><img src="images/picture7.jpg" ></li>
+      </ul>
+      <button class="prev">&lt;&lt;</button>
+      <button class="next">&gt;&gt;</button>
     </div>
 
 
